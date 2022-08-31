@@ -121,17 +121,15 @@ img {
   margin-left: 30px;
 }
 
-.contacts.item {
-  display: flex;
-  align-items: center;
-}
-
 .contacts-icon {
   margin-right: 10px;
+
+  fill: var(--primary-text-color);
 }
 
 .contacts.item .link {
-
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -142,6 +140,13 @@ img {
 .contacts .link:focus {
   color: var(--accent-color);
 }
+
+.contacts .link:hover .contacts-icon,
+.contacts .link:focus .contacts-icon {
+  fill: var(--accent-color);
+}
+
+
 
 /*======================= Контент головної сторінки ===========================*/
 
