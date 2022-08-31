@@ -380,6 +380,9 @@ img {
   border-radius: 50%;
 
   background-color: var(--primary-bg-color);
+}
+
+.social-icon {
   fill: var(--primary-icon-color);
 }
 
@@ -390,6 +393,10 @@ img {
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-color);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   fill: var(--secondary-text-color);
 }
 
@@ -599,6 +606,9 @@ img {
 
 .footer .social-link {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer .social-icon {
   fill: var(--secondary-text-color);
 }
 
